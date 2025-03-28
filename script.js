@@ -1,10 +1,12 @@
 function login()
-{
-  let u = username.value
-  let p = pw.value
-  if (u=="bomboclat" && p=="66")
-  {
-    window.open("home.html")
-    document.getElementById(compiler).style.display="block"
-  }
+{   
+    let a = username.value
+    let b = password.value
+    if (a == "abc" && b == "123")
+    {   
+        window.open("home.html")
+        document.getElementById(compiler).style.display="block";
+    }
+    else 
+        document.write("Không hợp lệ")
 }
